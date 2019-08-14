@@ -4,7 +4,8 @@
     "description": "This is a barbone setup of a React Js app using Webpack and Babel, without create react app.",
     "main": "index.js",
     "scripts": {
-        "build": "webpack --config webpack.common.js"
+        "start": "webpack-dev-server --mode development --config webpack.common.js --open --hot",
+        "build": "webpack --mode production --config webpack.common.js"
     },
     "repository": {
         "type": "git",
@@ -23,8 +24,13 @@
     },
     "devDependencies": {
         "@babel/core": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "@babel/preset-react": "^7.0.0",
+        "babel-core": "^6.26.3",
         "babel-loader": "^8.0.6",
         "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "html-webpack-plugin": "^3.2.0",
         "webpack": "^4.39.2",
         "webpack-cli": "^3.3.6",
         "webpack-dev-server": "^3.8.0"
