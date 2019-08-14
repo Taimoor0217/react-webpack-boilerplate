@@ -1,0 +1,32 @@
+{
+    "name": "React-Webpack-BoilerPlate",
+    "version": "1.0.0",
+    "description": "This is a barbone setup of a React Js app using Webpack and Babel, without create react app.",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --config webpack.common.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Taimoor0217/React-Webpack-BoilerPlate.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Taimoor0217/React-Webpack-BoilerPlate/issues"
+    },
+    "homepage": "https://github.com/Taimoor0217/React-Webpack-BoilerPlate#readme",
+    "dependencies": {
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "babel-loader": "^8.0.6",
+        "babel-preset-env": "^1.7.0",
+        "webpack": "^4.39.2",
+        "webpack-cli": "^3.3.6",
+        "webpack-dev-server": "^3.8.0"
+    }
+}
