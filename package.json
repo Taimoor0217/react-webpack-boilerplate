@@ -4,8 +4,8 @@
     "description": "This is a barbone setup of a React Js app using Webpack and Babel, without create react app.",
     "main": "index.js",
     "scripts": {
-        "start": "webpack-dev-server --mode development --config webpack.common.js --open --hot",
-        "build": "webpack --mode production --config webpack.common.js"
+        "start_dev": "webpack-dev-server --mode development --config webpack.common.js --open --hot",
+        "build_prod": "webpack --mode production --config webpack.common.js"
     },
     "repository": {
         "type": "git",
