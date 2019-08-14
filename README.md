@@ -1,7 +1,7 @@
 # React-Webpack-BoilerPlate
 This is a barbone setup of a React Js app using Webpack and Babel, without create react app.
 
-Will be add Saas , Redux , React-Router and Axios configs as well..
+Will be adding Saas , Redux , React-Router and Axios configs as well..
 
 # Commands
 
