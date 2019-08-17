@@ -9,16 +9,9 @@ module.exports = {
         path: path.resolve(__dirname, "dist")
     },
     devServer: {
-        clientLogLevel: 'debug',
+        clientLogLevel: 'error',
+        contentBase: 'dist',
         port: 9000,
-        after: function(app, server) {
-            setTimeout(function(){
-                console.clear()
-                console.log('Clearing the console.....')
-                console.log('Your App Compiled Successfully...')
-                console.log('View App : http://localhost:9000')
-            },3000)
-        }
     },
     module: {
         rules: [
