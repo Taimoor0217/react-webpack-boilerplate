@@ -1,5 +1,5 @@
 # React-Webpack-BoilerPlate
-This is a barebone setup of a React Js app using Webpack and Babel, without create react app.
+This is a barebone setup of a React Js app, without create react app.
 
 ## So Far Integrated Technologies
 ```
