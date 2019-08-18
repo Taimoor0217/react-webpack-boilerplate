@@ -9,10 +9,10 @@ class Posts extends Component{
         return(
             <div>
                 <h1>Posts</h1>
-                {this.props.Posts.map(function(post){
+                {this.props.Posts.map(function(post , index){
                     return(
-                        <div key = {post.id}>
-                            <h3> {post.title}</h3>
+                        <div key = {index+1}>
+                            <h3>{index+1} {post.title}</h3>
                             <p>{post.body}</p>
                             <hr></hr>
                         </div>
@@ -23,6 +23,6 @@ class Posts extends Component{
     }
 }
 const mapStateToProps = state =>({
-    Posts : state.Posts.AllPosts
+    Posts : state.Posts.AllPosts,
 }) 
 export default connect(mapStateToProps , {getPosts})(Posts)

@@ -10,6 +10,11 @@ export default function(state = initialState , action){
                 ...state,
                 AllPosts : action.data,
             }
+        case NEW_POST:
+            return{
+                ...state,
+                AllPosts : [action.data , ...state.AllPosts]
+            }
         default:
             return state
     }
