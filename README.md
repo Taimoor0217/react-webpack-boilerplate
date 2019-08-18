@@ -1,10 +1,42 @@
 # React-Webpack-BoilerPlate
 This is a barebone setup of a React Js app using Webpack and Babel, without create react app.
 
-Will be adding Saas , Redux , React-Router and Axios configs as well..
+## So Far Integrated Technologies
+```
+* Babel 
+* React 
+* Redux 
+```
 
-# Commands
+## Will be Adding
+```
+* Saas
+* GraphQl
+* Optimizations
+* Different Development and Production Config Files
+```
 
-Run app for development using webpack-dev-server : npm run start_dev
+## Installation
 
-Make a build for the app to deploy : npm run build_prod
+Use the package manager [npm](https://www.npmjs.com/) to install the dev dependencies.
+
+```js
+npm install --only=dev
+```
+
+## Make a Build
+
+```bash
+npm run build_prod
+```
+
+
+## For Development
+
+```bash
+npm run start_dev
+```
+
+## Open
+```
+http://localhost:9000
