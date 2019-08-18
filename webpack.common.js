@@ -9,6 +9,7 @@ module.exports = {
         path: path.resolve(__dirname, "dist")
     },
     devServer: {
+        stats: 'errors-warnings',
         clientLogLevel: 'error',
         contentBase: 'dist',
         port: 9000,

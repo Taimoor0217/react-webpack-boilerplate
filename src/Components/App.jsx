@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
+import Posts from './posts.jsx'
 export default class App extends Component{
     render(){
         return(
-            <h1> Hello World</h1>
+            <div>
+                <h1> Posts</h1>
+                <Posts/>
+            </div>
         )
     }
 }
