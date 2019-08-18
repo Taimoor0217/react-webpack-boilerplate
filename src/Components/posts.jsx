@@ -8,6 +8,7 @@ class Posts extends Component{
     render(){
         return(
             <div>
+                <h1>Posts</h1>
                 {this.props.Posts.map(function(post){
                     return(
                         <div key = {post.id}>
